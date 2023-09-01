@@ -32,12 +32,25 @@
             height: auto;
             display: block;
         }
+        .download-button {
+            background-color: #0074e4; /* Blue color */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Gallery Website</h1>
-        <h2><a href="file.txt">file</a></h2>
+        <a href="fl.txt" download="file.txt" class="download-button">Download File</a>
     </header>
 
     <main>
@@ -73,6 +86,9 @@
             </div>
             <div class="gallery-item">
                 <img src="10.jpg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <video src="chapter1"></video>
             </div>
         </div>
     </main>
