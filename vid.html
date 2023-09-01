@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Shorts Gallery</title>
+    <title>Video Gallery</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -27,7 +27,7 @@
 
         .video-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minmax value for your layout */
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 20px;
         }
 
@@ -43,32 +43,34 @@
             transform: scale(1.05);
         }
 
-        .video iframe {
+        .video video {
             width: 100%;
-            height: 300px; /* You can adjust the height as needed */
+            height: auto;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>YouTube Shorts Gallery</h1>
+        <h1>Video Gallery</h1>
     </header>
     <div class="container">
         <div class="video-grid">
             <!-- Sample video 1 -->
             <div class="video">
-                <iframe width="560" height="315" src="https://youtube.com/shorts/IayXOz7vNS4?si=JLiFMV56K8LdCIV1" frameborder="0" allowfullscreen></iframe>
+                <video controls src="VID_661400405_030114_733.webm"></video>
             </div>
-
             <!-- Sample video 2 -->
             <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+                <video controls src=""></video>
             </div>
-
-            <!-- Add more iframes for additional videos -->
+            <div class="video">
+                <video controls src=""></video>
+            </div>
+            <div class="video">
+                <video controls src=""></video>
+            </div> <video controls src="stock-footage-sun-beams-and-bubbles-underwater.webm"></video>
+            <!-- Add more videos as needed -->
         </div>
     </div>
-    <video controls src="stock-footage-sun-beams-and-bubbles-underwater.webm"></video>
 </body>
 </html>
-
