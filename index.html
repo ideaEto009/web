@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Website</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        .gallery-item {
+            overflow: hidden;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gallery Website</h1>
+    </header>
+
+    <main>
+        <div class="gallery">
+            <!-- Add your gallery items here -->
+            <div class="gallery-item">
+                <img src="1.jpg" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="2.jpg" alt="Image 2">
+            </div>
+            <!-- Add more gallery items as needed -->
+            <div class="gallery-item">
+                <img src="3.jpg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="4.jpg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="13.jpg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="5.jpg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="7.jpg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="8.jpg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="14.jpg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="12.jpg" alt="Image 2">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Gallery Website " Abderrahim "</p>
+    </footer>
+</body>
+</html>
+
